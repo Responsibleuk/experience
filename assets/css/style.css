@@ -52,10 +52,9 @@ Variables
   a {
     text-decoration: none;
   }
-  img:not(.logo) {
-    width: 100%;
-  }
+  
   img {
+    width: 100%;
     display: block;
   }
   
@@ -75,6 +74,7 @@ Variables
     margin-bottom: 0.75rem;
     font-family: var(--ff-primary);
   }
+
   h1 {
     font-size: 3rem;
   }
@@ -89,6 +89,7 @@ Variables
   }
   p {
     margin-bottom: 1.25rem;
+    font-size: 1rem;
     color: var(clr-grey-1);
   }
   @media screen and (min-width: 800px) {
@@ -117,7 +118,7 @@ Variables
   
   /* section */
   .section {
-    padding: 5rem 0;
+    padding: 1rem;
   }
   
   .section-center {
@@ -127,7 +128,7 @@ Variables
   }
   
   main {
-    min-height: 100vh;
+    min-height: 80vh;
     display: grid;
     place-items: center;
   }
