@@ -125,9 +125,23 @@ Variables
     margin: 5rem auto;
     max-width: 1170px;
   }
-  
+
+  header {
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    max-width: 1170px;
+  }
+
   main {
     min-height: 80vh;
     display: grid;
     place-items: center;
+    max-width: 1170px;
   }
+
+   /*
+  =============== 
+  Nav bar
+  ===============
+  */
