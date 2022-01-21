@@ -13,9 +13,8 @@ Variables
     --clr-grey-1: hsl(209, 61%, 16%);
     --clr-white: #fff;
     --clr-red-dark: hsl(360, 67%, 44%);
-    --clr-red-light: hsl(360, 71%, 66%);
     --clr-green-dark: hsl(125, 67%, 44%);
-    --clr-green-light: hsl(125, 71%, 66%);
+    --clr-coral: hsl(16, 100, 66);
     --ff-primary: "Montserrat", sans-serif;
     --ff-secondary: "Merriweather", sans-serif;
     --transition: all 0.3s linear;
