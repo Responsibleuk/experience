@@ -44,7 +44,6 @@ Variables
     background: var(--clr-grey-10);
     color: var(--clr-grey-1);
     line-height: 1.5;
-    font-size: 0.875rem;
   }
   ul {
     list-style-type: none;
@@ -359,6 +358,13 @@ Footer
 
 
 @media screen and (max-width: 992px) {
+  /* .section-center {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		place-items: center;
+		gap: 3rem;
+		width: 1005;
+	} */
 
 	.home-img {
     width: 80vw;
