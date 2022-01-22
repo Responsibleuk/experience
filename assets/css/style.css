@@ -362,11 +362,12 @@ Footer
 
 	.home-img {
     width: 80vw;
+    margin: 0.5rem;
    
   }
   
   .home-info {
     width: 80vw;
-    
+    margin: 0.5rem;
   }
 }
