@@ -11,7 +11,7 @@ Variables
     --clr-primary-3: hsl(205, 74%, 48%);
     /* darkest grey - used for headings */
     --clr-grey-1: hsl(209, 61%, 16%);
-    --clr-grey-1: hsl(206, 4%, 34%);
+    --clr-grey-2: hsl(206, 4%, 34%);
     --clr-white: #fff;
     --clr-red-dark: hsl(360, 67%, 44%);
     --clr-green-dark: hsl(125, 67%, 44%);
@@ -21,8 +21,8 @@ Variables
     --transition: all 0.3s linear;
     --spacing: 0.25rem;
     --radius: 0.5rem;
-    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    --dark-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    --light-shadow: 2px 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 5px 15px 25px rgba(0, 0, 0, 0.5);
     --max-width: 1170px;
     --fixed-width: 620px;
   }
@@ -220,7 +220,8 @@ Variables
   }
   @media screen and (min-width: 676px) {
     .nav-bar {
-      width: 40vw;
+      width: 20vw;
+      background-color: var(--clr-grey-2);
     }
   }
   
