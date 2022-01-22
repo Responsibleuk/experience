@@ -141,17 +141,7 @@ Variables
     max-width: 1170px;
   }
 
-   /*
-  =============== 
-  Nav bar
-  ===============
-  */
-#nav-bar {
-  height: 10vh;
-  width: 100%;
-  overflow: hidden;
-  background: none;
-}
+
 
 
  /*
@@ -190,12 +180,12 @@ Search
 }
 .search-input{
   height: 10vh;
- width: 40vw;
+  width: 40vw;
   padding: 10px;
   border: none;
   font-family: var(--ff-secondary);
-  
   font-size: 1.5rem;
+  
 }
 .search-button{
  text-align: center;
