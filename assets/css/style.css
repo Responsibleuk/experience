@@ -22,7 +22,7 @@ Variables
     --spacing: 0.25rem;
     --radius: 0.5rem;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    --dark-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
     --max-width: 1170px;
     --fixed-width: 620px;
   }
@@ -123,7 +123,7 @@ Variables
   
   .section-center {
     width: 90vw;
-    margin: 5rem auto;
+    margin: 2.5rem;
     max-width: 1170px;
   }
 
@@ -135,7 +135,7 @@ Variables
   }
 
   main {
-    min-height: 80vh;
+    min-height: 100vh;
     display: grid;
     place-items: center;
     max-width: 1170px;
@@ -145,15 +145,15 @@ Variables
  /* nav */
 
  header {
-   background-color: aqua;
+  background: transparent;
    height: 15vh;
  }
 
   .nav-toggle {
     position: fixed;
     top: 2rem;
-    right: 3rem;
-    font-size: 3rem;
+    right: 2rem;
+    font-size: 2rem;
     background: transparent;
     border-color: transparent;
     color: var(--clr-primary-1);
@@ -162,6 +162,7 @@ Variables
   }
   .nav-toggle:hover {
     color: var(--clr-primary-3);
+    transform: rotate(90deg);
   }
   
   
@@ -172,7 +173,7 @@ Variables
     padding: 1rem 1.5rem;
   }
   .close-btn {
-    font-size: 1.75rem;
+    font-size: 1rem;
     
     background: transparent;
     border-color: transparent;
@@ -188,22 +189,17 @@ Variables
   
   .nav a {
     display: block;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: capitalize;
     padding: 1rem 1.5rem;
     color: var(--clr-grey-1);
     transition: var(--transition);
   }
   .nav a:hover {
-    background: var(--clr-primary-1);
     color: var(--clr-primary-3);
     padding-left: 1.75rem;
   }
-  .social-icons {
-    justify-self: center;
-    display: flex;
-    padding-bottom: 2rem;
-  }
+  
   
   .nav-bar {
     position: fixed;
@@ -235,22 +231,22 @@ Variables
   ===============
   */
 #hero-image {
-  height: 800px;
+  height: 80vh;
   width: 100%;
   
   overflow: hidden;
-  background: url(../images/Inspiration.jpg) no-repeat center center;
+  background: url(../images/Inspiration.png) no-repeat center center;
 }
 
-#hero-image-text { 
+/* #hero-image-text { 
 position: absolute; 
 top: 125px; 
 left: 100px; 
-/* width: 100%;  */
+
 letter-spacing: 4px;  
 background: rgba(255, 255, 255, 0.7);
 padding: 10px; 
-}
+} */
 
 /* 
 ==========
@@ -266,7 +262,7 @@ Search
 }
 .search-input{
   height: 10vh;
-  width: 40vw;
+  width: 65vw;
   padding: 10px;
   border: none;
   font-family: var(--ff-secondary);
@@ -288,10 +284,88 @@ background-color: #fff;
 
 }
 .search-container{
-  width: 35vw;
-  position: absolute;
-  margin-left: 20vw;
-  margin-top: 60vh;
+  width: 75vw;
+  position: relative;
+  margin-left: 12.5vw;
+  margin-top: 50vh;
   box-shadow: var(--dark-shadow);
-  transform: translate(-50% , -50%);
+}
+
+/* 
+==========
+Footer
+========== 
+*/
+#footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15vh;
+  background-color: aqua;
+ }
+
+/* 
+==========
+
+========== 
+*/
+
+.sub-container{
+  width: 100%;
+  height: 120vh;
+  margin-bottom: 15vh;
+ 
+}
+
+ .home-container{
+  width: 75vw;
+  height: 35vh;
+  position: relative;
+  margin-left: 12.5vw;
+  margin-bottom: 5vh;
+  box-shadow: var(--dark-shadow);
+}
+
+
+
+.home-img {
+  width: 40vw;
+  height: 60vh;
+  margin: 2.5rem;
+  background-color: red;
+}
+
+.home-info {
+	width: 40vw;
+  height: 60vh;
+  margin: 2.5rem;
+  background-color: aqua;
+}
+
+
+@media screen and (min-width: 992px) {
+	.section-center {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		place-items: center;
+		gap: 3rem;
+		width: 95vw;
+	}
+	
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+	.home-img {
+    width: 80vw;
+   
+  }
+  
+  .home-info {
+    width: 80vw;
+    
+  }
 }
