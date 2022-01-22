@@ -11,7 +11,7 @@ Variables
     --clr-primary-3: hsl(205, 74%, 48%);
     /* darkest grey - used for headings */
     --clr-grey-1: hsl(209, 61%, 16%);
-    --clr-grey-2: hsl(206, 4%, 34%);
+    --clr-grey-2: hsl(210, 23%, 91%);
     --clr-white: #fff;
     --clr-red-dark: hsl(360, 67%, 44%);
     --clr-green-dark: hsl(125, 67%, 44%);
@@ -371,3 +371,107 @@ Footer
     margin: 0.5rem;
   }
 }
+
+/* 
+=============
+
+=============
+*/
+
+.flex-container {
+	
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+  overflow: hidden;
+
+}
+
+.flex-info {
+	padding: 1rem;
+	margin: 1rem;
+	width: 20rem;
+	flex: 50%;
+  text-align: left;
+  
+
+}
+
+.flex-img {
+	max-width: 20rem;
+  max-height: 35vh;
+	flex: 50%;
+	background-color: var(--clr-primary-10);
+	box-shadow: var(--light-shadow);
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  right: 0;
+  
+}
+
+.flex-item p {
+	padding-top: 1rem;
+}
+
+/* 
+============
+Reactive
+============
+*/
+
+@media screen and (max-width: 1200px) {
+  .flex-container {
+	
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+  
+  }
+  .home-container{
+    width: 70vw;
+    height: 100vh;
+    position: relative;
+    margin-left: 10vw;
+    margin-bottom: 3vh;
+   
+  }
+
+  .flex-info {
+    padding: 1rem;
+    margin: 1rem;
+    width: 70vw;
+    flex: 50%;
+    text-align: left;
+    
+  
+  }
+
+  .flex-img {
+    max-height: 35vh;
+    flex: 50%;
+    background-color: var(--clr-primary-10);
+    box-shadow: var(--light-shadow);
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 50%;
+    top: 0;
+    right: 0;
+    
+  }
+  
+	
+}
+/* 
+.modal-btn {
+	margin-top: 2rem;
+	background: var(--clr-primary-5);
+	border-color: var(--clr-primary-5);
+	color: var(--clr-white);
+}
+
+.modal-btn:hover {
+	background: transparent;
+	color: var(--clr-primary-5);
+} */
