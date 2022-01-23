@@ -143,9 +143,15 @@ Variables
 
  /* nav */
 
+ .logo {
+	height: 10vh;
+  margin-left: 6rem;
+
+}
+
  header {
   background: black;
-   height: 15vh;
+   height: 12vh;
  }
 
   .nav-toggle {
