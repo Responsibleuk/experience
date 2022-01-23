@@ -443,13 +443,11 @@ Reactive
     height: 100vh;
     position: relative;
     margin-left: 10vw;
-    margin-bottom: 3vh;
    
   }
 
   .flex-info {
-    padding: 1rem;
-    margin: 1rem;
+    
     width: 70vw;
     flex: 50%;
     text-align: left;
@@ -458,7 +456,7 @@ Reactive
   }
 
   .flex-img {
-    max-height: 35vh;
+    max-height: 40vh;
     flex: 50%;
     background-color: var(--clr-primary-10);
     box-shadow: var(--light-shadow);
