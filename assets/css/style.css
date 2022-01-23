@@ -481,3 +481,26 @@ Reactive
 	background: transparent;
 	color: var(--clr-primary-5);
 } */
+
+/* 
+============
+Carousel
+============
+*/
+.carousel-container {
+  max-width: 90vw;
+  position: relative;
+  margin: auto;
+}
+
+.carousel-container ul { 
+  display: flex; margin: 0; padding: 0; overflow: hidden;
+}
+
+.carousel-container li { 
+  display: block; list-style: none; 
+}
+
+.carousel {
+  display: none;
+}
