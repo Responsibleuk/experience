@@ -414,10 +414,8 @@ Footer
 
 .flex-img {
 	max-width: 20rem;
-  max-height: 35vh;
+  max-height: 40vh;
 	flex: 50%;
-	background-color: var(--clr-primary-10);
-	box-shadow: var(--light-shadow);
   overflow: hidden;
   position: relative;
   top: 0;
@@ -442,19 +440,21 @@ Reactive
     flex-direction: column;
     text-align: center;
     overflow: hidden;
+    margin-top: 10rem;
   
   }
   .home-container{
-    width: 70vw;
-    height: 100vh;
+    width: 100vw;
+    height: auto;
     position: relative;
-    margin-left: 10vw;
+    margin-top: 10vw;
    
   }
 
   .flex-info {
     
     width: 70vw;
+    height: 30vh;
     flex: 50%;
     text-align: left;
     
@@ -462,7 +462,7 @@ Reactive
   }
 
   .flex-img {
-    max-height: 40vh;
+    max-height: 30vh;
     flex: 50%;
     background-color: var(--clr-primary-10);
     box-shadow: var(--light-shadow);
